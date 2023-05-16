@@ -1,0 +1,128 @@
+body {
+  height: 100vh;
+  background-color: hsl(225, 100%, 94%);
+  font-family: outfit, sans-serif;
+  font-weight: 400, 700;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* {} */
+.illustration-hero {
+  width: 430px;
+  position: relative;
+  z-index: 2;
+  border-radius: 20px 20px 0 0;
+}
+
+h1,
+h3 {
+  color: hsl(223, 47%, 23%);
+}
+p {
+  color: hsl(224, 23%, 55%);
+}
+
+.container {
+  padding: 0 40px 0 40px;
+}
+
+.order-summary {
+  text-align: center;
+  padding: 10px 0 15px 0;
+}
+
+img {
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  z-index: -1;
+}
+
+.card {
+  width: 430px;
+  height: 630px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 50px 0px rgba(0, 0, 0, 0.1);
+}
+
+.boxes {
+  color: hsl(224, 23%, 55%);
+  background-color: hsl(225, 100%, 98%);
+  width: 40;
+  height: 90px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.box-one {
+  padding-right: 15px;
+}
+
+.box-two,
+h3 {
+  margin: 3px 0px;
+}
+
+.box-three {
+  padding-left: 73px;
+  font-weight: bold;
+}
+
+.click {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 20px;
+  font-weight: bold;
+  color: hsl(224, 23%, 55%);
+}
+
+button {
+  background-color: hsl(245, 75%, 52%); /* Green */
+  border: none;
+  color: white;
+  padding: 15px 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 0 10px 35px 0px rgba(0, 0, 0, 0.2);
+}
+
+.attribution {
+  position: relative;
+  top: 50px;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.cancel,
+button,
+.box-three {
+  cursor: pointer;
+}
+
+.cancel a {
+  text-decoration: none;
+  color: hsl(224, 23%, 55%);
+}
+
+button:hover {
+  background-color: hsl(223, 47%, 23%);
+}
